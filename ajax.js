@@ -68,7 +68,7 @@ function AjaxPostFunc(url)
     
    		}
  	};
- 	data = "id=10";
+ 	data = "id=10";  //加上参数
  	xmlHttp.open("POST", url, true);
   	xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
  	//Post 方法需要添加文件头。
